@@ -1,0 +1,33 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# PHPStorm project files
+/.idea/
+/*.iml
+
+# Ant build files
+/build/
+/dist/
+
+# Java dependencies
+/.classpath
+/.project
+/.settings/
+/target/
+
+# Node.js dependencies
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+/app/includes/PhP-Files/vendor/
+/app/includes/PhP-Files/composer.lock
+/app/includes/PhP-Files/composer.json

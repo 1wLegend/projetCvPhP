@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e; 
+    padding: 33px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 650px; 
+}
+
+.top-section {
+    margin-bottom: 20px; 
+}
+
+.emailLogging {
+    background-color:  #9634bd !important; 
+}
+
+h1 {
+    font-size: 24px; 
+    text-align: left;
+}
+
+.panel {
+    text-align: left;
+    color: rgb(177, 175, 175);
+}
+
+.highlight {
+    color: #c315fd; 
+}
+
+.info-text {
+    margin: 10px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #4c4c4c; 
+    border: none;
+    border-radius: 5px;
+    color: white; 
+    padding: 12px 20px; 
+    margin: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px; 
+}
+
+.btn.discord {
+    background-color: #7289da; 
+    margin-right: 150px; 
+}
+
+.btn.google {
+    background-color: #db4437; 
+}
+
+.btn.create {
+    background-color: #9634bd; 
+}
+
+.btn:hover {
+    opacity: 0.9; 
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.divider-line {
+    flex: 1; 
+    border: none; 
+    height: 2px; 
+    background-color: #000000;
+    margin: 0 10px; 
+}
+
+.account-text {
+    margin: 0 10px; 
+    color: grey; 
+}
+
+.noaccount {
+    text-align: left;
+    color: rgb(177, 175, 175);
+}
+
+.footer {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.footer-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-line {
+    flex: 1; 
+    border: none; 
+    height: 2px; 
+    background-color: #000000; 
+    margin: 0 10px; 
+}
+
+.footer p {
+    margin: 0 10px; 
+    color: #ccc; 
+    font-size: 12px; 
+}

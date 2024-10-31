@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../font/Segoe-UI-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI-Regular';
+    src: url('../font/Segoe-UI.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI-Italic';
+    src: url('../font/Segoe-UI-Italic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; 
+}
+
+.middle-box {
+    position: relative;
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    width: 40%;
+    color: white;
+    border: 2px solid #3a3a3a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.middle-box-content {
+    padding: 10%;
+}
+
+.middle-box-title-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    color: #dad8d9;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #1e1e1e;  
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+ul li {
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
+}
+
+ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #dad8d9;
+    text-decoration: none;
+    padding: 5%;
+    width: 100%;
+}
+
+ul li a:hover {
+    color: #a150e8;
+    text-decoration: underline;
+}
+
+ul img {
+    height: 50px;
+    width: 90px;
+    margin-top: 26px;
+    transition: transform 1.0s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul img:hover {
+    transform: rotateY(360deg);
+}
+
+.fa-solid {
+    font-size: 15px;
+    padding-right: 5%;
+    color: #dad8d9;
+}
+
+.fa-solid:hover {
+    color: #a150e8;
+}
+
+.bottom-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.line {
+    border: 2.5px solid #a150e8;
+    width: 110%;
+    margin-top: 10px;
+}
+
+.separation-deux-nav {
+    color: #a150e8;
+    padding-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-right-page {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: #dad8d9;
+}
+
+.fa-regular.fa-moon {
+    font-size: 20px;
+    color: #dad8d9;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+.fa-solid.fa-moon {
+    font-size: 20px;
+    color: #a150e8;
+    margin: 10px;
+    transition: color 0.3s ease;
+}
+
+.fa-regular.fa-moon:hover {
+    color: #a150e8;
+}
+
+.navbartopjustevatar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 25px;
+    background-color: #1e1e1e;
+    width: calc(100% - 15%);
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    top: 0px;
+    padding-bottom: 33px;
+}
+
+.navbartopjustevatar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbartopjustevatar-content-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.navbartopjustevatar-content-avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbartopjustevatar-content-logout a {
+    color: #dad8d9;
+    text-decoration: none;
+}
+
+.navbartopjustevatar-content-logout a:hover {
+    color: #a150e8;
+}
+
+.navbartopjustevatar-content-avatar p {
+    margin-left: 10px;
+    color: #dad8d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pageurl {
+    width: calc(100% - 15%);
+    position: fixed;
+    top: 86px;
+    right: 0;
+    z-index: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
+
+.url-bar {
+    background-color: #2B2B2B;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    margin-right: 10px;
+}
+
+.button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.button.close {
+    background-color: #ff5c5c;
+}
+
+.button.minimize {
+    background-color: #ffbd44;
+}
+
+.button.maximize {
+    background-color: #3bff5c;
+}
+
+.url-bar p {
+    color: #dad8d9;
+    margin: 0;
+    flex-grow: 1;
+    padding-left: 10px;
+}

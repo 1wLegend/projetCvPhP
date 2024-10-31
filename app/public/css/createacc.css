@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 33px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 650px; 
+}
+
+h1 {
+    font-size: 26px; 
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.yllusion {
+    color: #c315fd;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.step {
+    display: flex; 
+    align-items: center;
+}
+
+.square {
+    background-color: #1f1e1e;
+    border: 2px solid #c315fd;
+    color: #c7c7c7;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9.5px;
+    margin-right: 15px; 
+}
+
+.explanations {
+    color: rgb(177, 175, 175);
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.number{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-text {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(177, 175, 175);
+}
+
+.arrow {
+    display: inline-block;
+    width: 150px; 
+    height: 10px; 
+    border-top: 2px solid #c315fd;
+    margin: 0 10px;
+}
+
+
+.obligatoire {
+    font-weight: bold;
+    color: #888;
+}
+
+.instructions {
+    display: flex;    
+    text-align: center;
+    color: rgb(177, 175, 175); 
+    font-size: 15px;   
+    margin-bottom: 30px;
+}
+
+.connexionSpan {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -17.5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4c4c4c; 
+    border: none;
+    border-radius: 5px;
+    color: white; 
+    padding: 12px 20px; 
+    margin: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px; 
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.email_loggin {
+    background-color: #a314d3; 
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #888;
+}
+
+
+.divider-line {
+    flex: 1; 
+    border: none; 
+    height: 2px; 
+    background-color: #000000; 
+    margin: 0 10px; 
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
